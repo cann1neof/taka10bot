@@ -1,0 +1,2 @@
+class WrongUserException(BaseException):
+    pass
