@@ -14,3 +14,6 @@ def application():
     app.add_handler(CommandHandler("gen_targets", gen_targets))
     app.add_handler(CommandHandler('seeWho', get_pair))
     app.run_polling()
+
+if __name__ == '__main__':
+    application()
